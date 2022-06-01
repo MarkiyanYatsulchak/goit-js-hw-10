@@ -50,7 +50,7 @@ function renderCountriesList(data) {
 function renderOneCountry(data) {
   const oneCountryMarkup = data
     .map(({ flags, name, capital, population, languages }) => {
-      return `      <div class="country-info__item">
+      return `<div class="country-info__item">
         <img src="${flags.svg}" alt="${name.official} flag" width="40" />
         <h1>${name.official}</h1>
       </div>
